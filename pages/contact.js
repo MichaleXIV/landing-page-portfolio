@@ -6,12 +6,12 @@ const Contact = () => {
 			<Header title="Andrio Pratama Sirait Site" />
 			<Template menu="/contact">
 				<div className="flex items-center justify-center flex-col h-full my-10">
-					<h2 className="text-sky-500 font-bold text-xl mb-5">MY CONTACT</h2>
+					<h2 className="text-button2 font-bold text-xl mb-5">MY CONTACT</h2>
 					<div className="text-center">
-						<p>Jl. Taman Laguna</p>
+						<p>Jl. Al Bashor</p>
 						<p>Jakarta Timur, Indonesia</p>
-						<p>17435</p>
-						+62 812 2669 6696 | andriopratama16@gmail.com
+						<p>13550</p>
+						+62 815 1198 2551 | maulana.saputra1909@gmail.com
 					</div>
 				</div>
 			</Template>

@@ -1,0 +1,57 @@
+import React, { useState } from 'react'
+import { Footer, Header, Menu, Profile, Template } from '../../components'
+import Image from 'next/image'
+
+const LandingPageGeospasialCilegon = () => {
+
+  return (
+    <div>
+      <Header title='Andrio Pratama Sirait Site' />
+      <Template menu='/portfolio'>
+        <h2 className='text-button2 font-bold text-xl mb-5 mt-5'>LANDING PAGE GEOSPASIAL</h2>
+        <div className='text-center'>
+          <Image 
+            src='/assets/images/portfolio-putra/geospasial-cilegon.png' 
+            alt='Image'
+            width={1000}
+            height={500}
+            objectFit='contain'/>
+        </div>
+        <p className='mb-3 mt-10 text-justify'>
+          Mendukung perencanaan dan pemanfaatan ruang yang terintegrasi dalam rencana tata ruang, kesesuaian dan perizinan pemanfaatan masing masing sektor, penyelesaian tumpang tindih pemanfaatan ruang dan perbaikan data IGT masing masing sektor di Kota Cilegon
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-3 divide-x mt-5 mb-10">
+          <div className='p-3 px-5'>
+            <p className='font-bold'>Access:</p>
+            <a className='text-button1 underline' target='_blank' rel='noreferrer' href="https://satudata.cilegon.go.id/geospasial/">
+              Click here
+            </a>
+          </div>
+          <div className='p-3 px-5'>
+            <p className='font-bold'>Role:</p>
+            <p>Front-End Web Developer</p>
+          </div>
+          <div className='p-3 px-5'>
+            <p className='font-bold'>Technology:</p>
+            <div className='grid grid-cols-3 gap-3  mt-5'>
+              <div className='text-center'>
+                <Image src='/assets/images/html.png' alt='Javascript' width={100} height={40} objectFit='contain' />
+                <div className='text-sm'>HTML</div>
+              </div>
+              <div className='text-center'>
+                <Image src='/assets/images/css.png' alt='Javascript' width={100} height={40} objectFit='contain' />
+                <div className='text-sm'>CSS</div>
+              </div>
+              <div className='text-center'>
+                <Image src='/assets/images/javascript.png' alt='Javascript' width={100} height={40} objectFit='contain' />
+                <div className='text-sm'>Javascript</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Template>
+    </div>
+  )
+}
+
+export default LandingPageGeospasialCilegon
