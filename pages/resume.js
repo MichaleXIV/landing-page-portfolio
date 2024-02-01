@@ -14,7 +14,7 @@ const Skill = ({ src, nama, level }) => {
 const Resume = () => {
 	return (
 		<div>
-			<Header title="Andrio Pratama Sirait Site" />
+			<Header title="Muhammad Maulana Saputra Site" />
 			<Template menu="/resume">
 				<h1 className="text-button2 font-bold text-xl mb-10 mt-5">
 					WORK EXPERIENCE

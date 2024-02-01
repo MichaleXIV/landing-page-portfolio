@@ -6,7 +6,7 @@ const ChattingApp = () => {
 
     return (
         <div>
-            <Header title='Andrio Pratama Sirait Site' />
+            <Header title='Muhammad Maulana Saputra Site' />
             <Template menu='/portfolio'>
                 <h2 className='text-button2 font-bold text-center text-xl mb-5 mt-5'>CHATTING APP</h2>
                 <div className='text-center xl:flex gap-4'>

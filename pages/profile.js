@@ -3,7 +3,7 @@ import { Footer, Header, Menu, Profile, Template } from "../components";
 const ProfilePage = () => {
 	return (
 		<div>
-			<Header title="Andrio Pratama Sirait Site" />
+			<Header title="Muhammad Maulana Saputra Site" />
 			<Template menu="/profile">
 				<h2 className="text-button2 font-bold text-xl my-5">ABOUT ME</h2>
 				<table className="table-fixed mt-5">

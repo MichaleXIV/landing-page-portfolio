@@ -6,7 +6,7 @@ const LandingPageGeospasialCilegon = () => {
 
   return (
     <div>
-      <Header title='Andrio Pratama Sirait Site' />
+      <Header title='Muhammad Maulana Saputra Site' />
       <Template menu='/portfolio'>
         <h2 className='text-button2 font-bold text-xl mb-5 mt-5'>LANDING PAGE GEOSPASIAL</h2>
         <div className='text-center'>

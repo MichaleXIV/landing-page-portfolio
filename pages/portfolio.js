@@ -4,6 +4,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const menu = [{
+  name: 'Sipilu Mobile',
+  description: 'Sipilu is an App that presents a digital innovation designed to win legislative elections based on the Statistical, Geospatial and Artificial intelligence Analytical Application Platform to assist winning process by providing certainty One NIK One Data at each level of selection so that the resulting data is more objective and accurate.',
+  slug: 'sipilu-mobile',
+  thumbnail: '/assets/images/portfolio-putra/sipilu-logo.png'
+}, {
   name: 'Landing Page Andomus',
   description: 'Company Profile From PT. Andomus Tech Universe',
   slug: 'landing-page-adomus',
@@ -72,7 +77,7 @@ const PortfolioItem = ({ item }) => {
 const Portfolio = () => {
   return (
     <div>
-      <Header title='Andrio Pratama Sirait Site' />
+      <Header title='Muhammad Maulana Saputra' />
       <Template menu='/portfolio'>
         <h2 className='text-button2 font-bold text-xl mb-10 mt-5'>MY PORTFOLIO</h2>
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4 mb-10 w-full justify-center items-center relative">
